@@ -1,3 +1,5 @@
+package com.example.domain;
+
 public class KishiNoboru {
     private String name;
     private Integer age;
@@ -21,120 +23,120 @@ public class KishiNoboru {
         this.hairStyle = hairStyle;
     }
 
-    
-    /** 
+
+    /**
      * @return String
      */
     public String getName() {
         return this.name;
     }
 
-    
-    /** 
+
+    /**
      * @param name
      */
     public void setName(String name) {
         this.name = name;
     }
 
-    
-    /** 
+
+    /**
      * @return Integer
      */
     public Integer getAge() {
         return this.age;
     }
 
-    
-    /** 
+
+    /**
      * @param age
      */
     public void setAge(Integer age) {
         this.age = age;
     }
 
-    
-    /** 
+
+    /**
      * @return Integer
      */
     public Integer getHeigt() {
         return this.heigt;
     }
 
-    
-    /** 
+
+    /**
      * @param heigt
      */
     public void setHeigt(Integer heigt) {
         this.heigt = heigt;
     }
 
-    
-    /** 
+
+    /**
      * @return Integer
      */
     public Integer getWeight() {
         return this.weight;
     }
 
-    
-    /** 
+
+    /**
      * @param weight
      */
     public void setWeight(Integer weight) {
         this.weight = weight;
     }
 
-    
-    /** 
+
+    /**
      * @return String
      */
     public String getMomName() {
         return this.momName;
     }
 
-    
-    /** 
+
+    /**
      * @param momName
      */
     public void setMomName(String momName) {
         this.momName = momName;
     }
 
-    
-    /** 
+
+    /**
      * @return String
      */
     public String getPapaName() {
         return this.papaName;
     }
 
-    
-    /** 
+
+    /**
      * @param papaName
      */
     public void setPapaName(String papaName) {
         this.papaName = papaName;
     }
 
-    
-    /** 
+
+    /**
      * @return String
      */
     public String getHairStyle() {
         return this.hairStyle;
     }
 
-    
-    /** 
+
+    /**
      * @param hairStyle
      */
     public void setHairStyle(String hairStyle) {
         this.hairStyle = hairStyle;
     }
 
-    
-    /** 
+
+    /**
      * @param name
      * @return KishiNoboru
      */
@@ -143,8 +145,8 @@ public class KishiNoboru {
         return this;
     }
 
-    
-    /** 
+
+    /**
      * @param age
      * @return KishiNoboru
      */
@@ -153,8 +155,8 @@ public class KishiNoboru {
         return this;
     }
 
-    
-    /** 
+
+    /**
      * @param heigt
      * @return KishiNoboru
      */
@@ -163,8 +165,8 @@ public class KishiNoboru {
         return this;
     }
 
-    
-    /** 
+
+    /**
      * @param weight
      * @return KishiNoboru
      */
@@ -173,8 +175,8 @@ public class KishiNoboru {
         return this;
     }
 
-    
-    /** 
+
+    /**
      * @param momName
      * @return KishiNoboru
      */
@@ -183,8 +185,8 @@ public class KishiNoboru {
         return this;
     }
 
-    
-    /** 
+
+    /**
      * @param papaName
      * @return KishiNoboru
      */
@@ -193,8 +195,8 @@ public class KishiNoboru {
         return this;
     }
 
-    
-    /** 
+
+    /**
      * @param hairStyle
      * @return KishiNoboru
      */
@@ -203,33 +205,7 @@ public class KishiNoboru {
         return this;
     }
 
-    
-    /** 
-     * @param o
-     * @return boolean
-     */
-    @Override
-    public boolean equals(Object o) {
-        if (o == this)
-            return true;
-        if (!(o instanceof KishiNoboru)) {
-            return false;
-        }
-        KishiNoboru kishiNoboru = (KishiNoboru) o;
-        return Objects.equals(name, kishiNoboru.name) && Objects.equals(age, kishiNoboru.age) && Objects.equals(heigt, kishiNoboru.heigt) && Objects.equals(weight, kishiNoboru.weight) && Objects.equals(momName, kishiNoboru.momName) && Objects.equals(papaName, kishiNoboru.papaName) && Objects.equals(hairStyle, kishiNoboru.hairStyle);
-    }
-
-    
-    /** 
-     * @return int
-     */
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, age, heigt, weight, momName, papaName, hairStyle);
-    }
-
-    
-    /** 
+    /**
      * @return String
      */
     @Override

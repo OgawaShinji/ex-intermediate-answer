@@ -7,6 +7,7 @@ public class Arisa {
 	private Integer weight;
 	private Integer height;
 	private String lastName;
+	private String arisa2;
 
 	public Integer getAge() {
 		return this.age;
@@ -83,4 +84,5 @@ public class Arisa {
 	public void setArisa(String arisa) {
 		this.arisa = arisa;
 	}
+	
 }

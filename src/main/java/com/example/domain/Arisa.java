@@ -7,10 +7,49 @@ public class Arisa {
 	private Integer weight;
 	private Integer height;
 	private String lastName;
-	
+
 	private String Arisa0522;
 
 	private String arisa2;
+
+	public Arisa() {
+	}
+
+	public Arisa(Integer age, String arisa, Integer weight, Integer height, String lastName, String Arisa0522, String arisa2) {
+		this.age = age;
+		this.arisa = arisa;
+		this.weight = weight;
+		this.height = height;
+		this.lastName = lastName;
+		this.Arisa0522 = Arisa0522;
+		this.arisa2 = arisa2;
+	}
+
+	public String getArisa0522() {
+		return this.Arisa0522;
+	}
+
+	public void setArisa0522(String Arisa0522) {
+		this.Arisa0522 = Arisa0522;
+	}
+
+	public String getArisa2() {
+		return this.arisa2;
+	}
+
+	public void setArisa2(String arisa2) {
+		this.arisa2 = arisa2;
+	}
+
+	public Arisa Arisa0522(String Arisa0522) {
+		this.Arisa0522 = Arisa0522;
+		return this;
+	}
+
+	public Arisa arisa2(String arisa2) {
+		this.arisa2 = arisa2;
+		return this;
+	}
 
 	public Integer getAge() {
 		return this.age;
@@ -82,5 +121,5 @@ public class Arisa {
 	public void setArisa(final String arisa) {
 		this.arisa = arisa;
 	}
-	
+
 }

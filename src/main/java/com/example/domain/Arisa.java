@@ -7,12 +7,13 @@ public class Arisa {
 	private Integer weight;
 	private Integer height;
 	private String lastName;
+	private String Arisa0522;
 
 	public Integer getAge() {
 		return this.age;
 	}
 
-	public void setAge(Integer age) {
+	public void setAge(final Integer age) {
 		this.age = age;
 	}
 
@@ -20,7 +21,7 @@ public class Arisa {
 		return this.weight;
 	}
 
-	public void setWeight(Integer weight) {
+	public void setWeight(final Integer weight) {
 		this.weight = weight;
 	}
 
@@ -28,7 +29,7 @@ public class Arisa {
 		return this.height;
 	}
 
-	public void setHeight(Integer height) {
+	public void setHeight(final Integer height) {
 		this.height = height;
 	}
 
@@ -36,51 +37,46 @@ public class Arisa {
 		return this.lastName;
 	}
 
-	public void setLastName(String lastName) {
+	public void setLastName(final String lastName) {
 		this.lastName = lastName;
 	}
 
-	public Arisa age(Integer age) {
+	public Arisa age(final Integer age) {
 		this.age = age;
 		return this;
 	}
 
-	public Arisa arisa(String arisa) {
+	public Arisa arisa(final String arisa) {
 		this.arisa = arisa;
 		return this;
 	}
 
-	public Arisa weight(Integer weight) {
+	public Arisa weight(final Integer weight) {
 		this.weight = weight;
 		return this;
 	}
 
-	public Arisa height(Integer height) {
+	public Arisa height(final Integer height) {
 		this.height = height;
 		return this;
 	}
 
-	public Arisa lastName(String lastName) {
+	public Arisa lastName(final String lastName) {
 		this.lastName = lastName;
 		return this;
 	}
 
 	@Override
 	public String toString() {
-		return "{" +
-			" age='" + getAge() + "'" +
-			", arisa='" + getArisa() + "'" +
-			", weight='" + getWeight() + "'" +
-			", height='" + getHeight() + "'" +
-			", lastName='" + getLastName() + "'" +
-			"}";
+		return "{" + " age='" + getAge() + "'" + ", arisa='" + getArisa() + "'" + ", weight='" + getWeight() + "'"
+				+ ", height='" + getHeight() + "'" + ", lastName='" + getLastName() + "'" + "}";
 	}
 
 	public String getArisa() {
 		return arisa;
 	}
 
-	public void setArisa(String arisa) {
+	public void setArisa(final String arisa) {
 		this.arisa = arisa;
 	}
 }
